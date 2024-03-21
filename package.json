@@ -1,0 +1,33 @@
+{
+  "name": "doloressed",
+  "version": "1.0.0",
+  "description": "Type Level Arithmetic",
+  "keywords": [
+    "error",
+    "cumque",
+    "type addition",
+    "add",
+    "esse",
+    "subtract",
+    "ex",
+    "product"
+  ],
+  "homepage": "https://github.com/AntoniaZboncak/doloressed.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntoniaZboncak/doloressed.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/ts-arithmetic.d.ts",
+  "author": "MaddisonConsidine",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && api-extractor run --local --typescript-compiler-folder node_modules/typescript/lib",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
